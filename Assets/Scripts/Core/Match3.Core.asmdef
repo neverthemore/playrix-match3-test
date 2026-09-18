@@ -1,0 +1,16 @@
+{
+    "name": "Match3.Core",
+    "rootNamespace": "Match3.Core",
+    "references": [
+        "GUID:77d94d365bb28ef46a069d985758dd9c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

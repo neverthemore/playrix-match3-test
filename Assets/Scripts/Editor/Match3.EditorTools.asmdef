@@ -1,0 +1,24 @@
+{
+    "name": "Match3.EditorTools",
+    "rootNamespace": "Match3.EditorTools",
+    "references": [
+        "Match3.Core",
+        "Match3.Gameplay",
+        "Match3.UI",
+        "Match3.App",
+        "DOTween",
+        "DOTween.Modules",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

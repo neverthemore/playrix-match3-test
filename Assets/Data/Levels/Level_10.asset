@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d973deead4ab6c84c8678d1e8d971760, type: 3}
+  m_Name: Level_10
+  m_EditorClassIdentifier: Match3.Core::Match3.Core.Domain.LevelConfig
+  displayName: Level 10
+  width: 10
+  height: 10
+  colorCount: 6
+  colorPalette: 010000000200000003000000040000000500000006000000
+  cells:
+  - x: 3
+    y: 2
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 4
+      color: 0
+      lives: 1
+  - x: 6
+    y: 2
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 4
+      color: 0
+      lives: 1
+  - x: 3
+    y: 4
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 4
+      color: 0
+      lives: 1
+  - x: 6
+    y: 4
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 4
+      color: 0
+      lives: 1
+  - x: 3
+    y: 6
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 4
+      color: 0
+      lives: 1
+  - x: 6
+    y: 6
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 4
+      color: 0
+      lives: 1
+  - x: 1
+    y: 8
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 1
+      color: 0
+      lives: 2
+    - kind: 2
+      color: 1
+      lives: 1
+    - kind: 3
+      color: 2
+      lives: 1
+  - x: 8
+    y: 8
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 1
+      color: 0
+      lives: 2
+    - kind: 2
+      color: 3
+      lives: 1
+  - x: 4
+    y: 1
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 3
+      color: 4
+      lives: 2
+  - x: 5
+    y: 1
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 2
+      color: 5
+      lives: 2
+  moveLimit: 32
+  goals:
+  - kind: 1
+    color: 1
+    booster: 4
+    blockKind: 1
+    amount: 1
+  - kind: 2
+    color: 1
+    booster: 3
+    blockKind: 1
+    amount: 2
+  - kind: 2
+    color: 1
+    booster: 3
+    blockKind: 2
+    amount: 3
+  - kind: 2
+    color: 1
+    booster: 3
+    blockKind: 3
+    amount: 2

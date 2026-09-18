@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d973deead4ab6c84c8678d1e8d971760, type: 3}
+  m_Name: Level_06
+  m_EditorClassIdentifier: Match3.Core::Match3.Core.Domain.LevelConfig
+  displayName: Level 6
+  width: 9
+  height: 9
+  colorCount: 5
+  colorPalette: 010000000200000003000000040000000500000006000000
+  cells:
+  - x: 2
+    y: 2
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 1
+      color: 0
+      lives: 3
+  - x: 6
+    y: 2
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 1
+      color: 0
+      lives: 3
+  - x: 2
+    y: 6
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 1
+      color: 0
+      lives: 3
+  - x: 6
+    y: 6
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 1
+      color: 0
+      lives: 3
+  - x: 4
+    y: 4
+    content: 3
+    chipColor: 1
+    booster: 3
+    blockLayers:
+    - kind: 1
+      color: 0
+      lives: 5
+  moveLimit: 26
+  goals:
+  - kind: 2
+    color: 1
+    booster: 3
+    blockKind: 1
+    amount: 5

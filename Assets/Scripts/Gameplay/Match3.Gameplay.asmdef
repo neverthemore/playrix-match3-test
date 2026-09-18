@@ -1,0 +1,19 @@
+{
+    "name": "Match3.Gameplay",
+    "rootNamespace": "Match3.Gameplay",
+    "references": [
+        "Match3.Core",
+        "Match3.Utils",
+        "DOTween",
+        "DOTween.Modules"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264d7038430579e4e9e1cb3e8bc99cd9, type: 3}
+  m_Name: TileDatabase
+  m_EditorClassIdentifier: Match3.Gameplay::Match3.Gameplay.Tiles.TileDatabase
+  definitions:
+  - {fileID: 11400000, guid: 9e24761ff57ef0547861356421d045f2, type: 2}
+  - {fileID: 11400000, guid: 9fd2fd50c00b5f244ac14a4e56397337, type: 2}
+  - {fileID: 11400000, guid: 27e4c5c6f55bc244dbc3989acd9ec4c1, type: 2}
+  - {fileID: 11400000, guid: 2c63784879d34a44da57ff59aed651fa, type: 2}
+  - {fileID: 11400000, guid: 2a95f16cac5d180409b07af3614a0ba3, type: 2}
+  - {fileID: 11400000, guid: 144a126738820df4188ef824b3e8947d, type: 2}
+  lineHorizontalOverlay: {fileID: 21300000, guid: 3a12c72316867704f96a9e3badeb4dae, type: 3}
+  lineVerticalOverlay: {fileID: 21300000, guid: 1fa48d36438c9504eb338833ea283a9a, type: 3}
+  bombOverlay: {fileID: 21300000, guid: 092f2162d64bc6847b71cb68074f75d6, type: 3}
+  planeOverlay: {fileID: 21300000, guid: 18faaf34a3429fc49b878488828451e9, type: 3}
+  rainbowBallSprite: {fileID: 21300000, guid: be9c38920ac64024eb4354a3e7193ecf, type: 3}
+  crateSprite: {fileID: 21300000, guid: a9359c05ed907d04bbcac740dbce9cc7, type: 3}
+  coloredCrateSprite: {fileID: 21300000, guid: f4bfb54a387b6a743aa786293ad4b237, type: 3}
+  chameleonCrateSprite: {fileID: 21300000, guid: 4f890bb23151cf046a2fca8a8a2cebf7, type: 3}
+  blockerSprite: {fileID: 21300000, guid: ec637485412eed94d9992fe8d319986f, type: 3}
+  crackOverlay: {fileID: 21300000, guid: bbd387078474e694bb83f88cc02ec888, type: 3}
+  cellBackgroundSprite: {fileID: 21300000, guid: 2a34d88d252413947bebf4d22f4bff3c, type: 3}
+  highlightSprite: {fileID: 21300000, guid: 7e3ea18975dda6148983ad62f004c0a6, type: 3}
